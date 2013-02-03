@@ -17,7 +17,7 @@ git clone https://github.com/sphughes/test_setup.git
 
 git remote set-url origin https://sphughes@github.com/sphughes/test_setup.git
 
-*(SSH version) git remote set-url origin ssh://git@github.com/sphughes/test_setup.git*
+*(SSH version) git remote set-url origin ssh://sphughes@github.com/sphughes/test_setup.git*
 
 *(Used for ssh) git config --global credential.helper 'cache --timeout=7200'*
 
