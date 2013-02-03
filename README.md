@@ -9,7 +9,7 @@ git config --global user.name 'User Name'
 
 git config --global user.email 'your.email@somehost.com'
 
-git config --global credential.helper 'cache --timeout=7200'
+##  (Used for ssh) git config --global credential.helper 'cache --timeout=7200'
 
 mkdir github
 
@@ -18,5 +18,7 @@ cd github
 git clone https://github.com/sphughes/test_setup.git
 
 git remote set-url origin https://sphughes@github.com/sphughes/test_setup.git
+
+## (SSH version) git remote set-url origin ssh://git@github.com/sphughes/test_setup.git
 
 
